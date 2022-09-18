@@ -1,11 +1,13 @@
 <template>
-  <div class="lg:w-full lg:h-[206px] bg-[#202020]">
-    <div class="lg:w-[1200px] mx-auto lg:h-[206px] lg:flex lg:justify-between">
-      <h1 class="mt-[21px]">mai</h1>
+  <div class="h-[320px] w-full md:h-[206px] bg-[#202020]">
+    <div
+      class="md:w-[1200px] mx-auto md:h-[206px] flex justify-between flex-col md:flex-row"
+    >
+      <h1 class="md:mt-[21px] w-[392px] h-[161px] mx-auto md:mx-0">mai</h1>
       <div
-        class="lg:flex lg:flex-col lg:items-end lg:justify-between lg:pb-[20px]"
+        class="md:flex md:flex-col md:items-end md:justify-between md:pb-[20px]"
       >
-        <Tel class="lg:mt-[33px]" />
+        <Tel class="md:mt-[33px] mx-auto md:mx-0" />
         <Menu />
       </div>
     </div>
@@ -14,8 +16,6 @@
 
 <style scope>
 h1 {
-  height: 161px;
-  width: 392px;
   background: url('~/assets/images/logo.png');
   color: rgba(0, 0, 0, 0);
 }
