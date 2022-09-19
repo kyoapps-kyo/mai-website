@@ -1,16 +1,13 @@
 <template>
-  <div class="campon py-[72px] w-full bg-[#222222] box-border">
-    <div class="lg:w-[1200px] mx-auto relative">
+  <div
+    class="campon py-[72px] w-full md:min-w-[1200px] bg-[#222222] box-border"
+  >
+    <div class="md:w-[1200px] md:mx-auto relative">
       <SectionTitle>キャンペーン情報</SectionTitle>
-      <div class="w-[623px] text-center mx-auto relative">
+      <div class="md:w-[623px] w-full text-center md:mx-auto relative">
         <img
-          class="absolute top-[-36px] left-[-172px] w-[268px] h-[286px]"
+          class="hidden md:block absolute top-[-36px] left-[-172px] w-[268px] h-[286px]"
           src="~/assets/images/10month.png"
-          alt=""
-        />
-        <img
-          class="absolute top-[320px] right-[-100px] w-[100px] h-[100px]"
-          src="~/assets/images/gift.png"
           alt=""
         />
         <p class="text-red-600 text-[42px]">新開店キャンペーン</p>
@@ -28,6 +25,11 @@
             >プレゼント</span
           >を、ご用意しました。
         </p>
+        <img
+          class="mx-auto md:mx-0 md:absolute md:top-[320px] md:right-[-100px] w-[100px] h-[100px]"
+          src="~/assets/images/gift.png"
+          alt=""
+        />
         <p class="text-[24px] text-[#fff]">
           他割引サービスとの併用は不可です。
         </p>
