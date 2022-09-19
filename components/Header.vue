@@ -3,7 +3,9 @@
     <div
       class="md:w-[1200px] mx-auto md:h-[206px] flex justify-between flex-col md:flex-row"
     >
-      <h1 class="md:mt-[21px] w-[392px] h-[161px] mx-auto md:mx-0">mai</h1>
+      <h1 class="md:mt-[21px] md:w-[392px] w-full h-[161px] mx-auto md:mx-0">
+        mai
+      </h1>
       <div
         class="md:flex md:flex-col md:items-end md:justify-between md:pb-[20px]"
       >
@@ -16,7 +18,7 @@
 
 <style scope>
 h1 {
-  background: url('~/assets/images/logo.png');
+  background: url('~/assets/images/logo.png') no-repeat center center / contain;
   color: rgba(0, 0, 0, 0);
 }
 </style>

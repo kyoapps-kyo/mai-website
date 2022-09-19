@@ -11,12 +11,11 @@
       referrerpolicy="no-referrer-when-downgrade"
     ></iframe>
     <div
-      class="mt-[20px] w-max mx-auto text-[#d6d6d6] text-[18px] md:text-[24px] pb-[100px]"
+      class="mt-[20px] w-[170px] md:w-max mx-auto text-[#d6d6d6] text-[16px] md:text-[24px] pb-[100px]"
     >
       <p class="underline">
         <a href="https://goo.gl/maps/9bcQ9jni6Dd6F3HF7" target="blank"
-          >京都市中京区三条通東洞院東入菱屋町36
-          <br class="block md:hidden" />プラザコラムビル501</a
+          >京都市中京区三条通東洞院東入菱屋町36 プラザコラムビル501</a
         >
       </p>
     </div>

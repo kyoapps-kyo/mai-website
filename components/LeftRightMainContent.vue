@@ -6,7 +6,7 @@
         <p class="text-[32px] text-[#ffd100] bulintext">090-9846-8392</p>
         <slot name="tag"></slot>
       </div>
-      <div class="w-[791px]">
+      <div class="md:w-[791px] w-full">
         <slot name="mainContent"></slot>
       </div>
     </div>
