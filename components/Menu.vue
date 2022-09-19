@@ -1,6 +1,6 @@
 <template>
   <ul
-    class="flex w-[357px] mx-auto md:mx-0 md:w-[480px] h-[48px] justify-between items-center text-[#d6d6d6] text-center md:text-[14px] text-[10px] font-bold"
+    class="flex w-[345px] mx-auto md:mx-0 md:w-[480px] h-[48px] justify-between items-center text-[#d6d6d6] text-center md:text-[14px] text-[10px] font-bold"
   >
     <li class="w-[70px] md:w-[90px] h-[24px] leading-[24px]">
       <NuxtLink to="/">Home</NuxtLink>
@@ -14,7 +14,7 @@
     <li class="w-[70px] md:w-[90px] h-[24px] leading-[24px]">
       <NuxtLink to="access">アクセス</NuxtLink>
     </li>
-    <li class="ml-[14px] h-[24px] leading-[24px]">
+    <li class="md:ml-[14px] ml-2 h-[24px] leading-[24px]">
       <NuxtLink to="jobs">求人情報</NuxtLink>
     </li>
   </ul>
