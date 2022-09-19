@@ -1,23 +1,44 @@
 <template>
-  <div class="menu-box box-border w-[791px] h-[1169px] text-white">
-    <h2 class="text-[36px] text-center my-[64px]">メニュー</h2>
+  <div class="menu-box box-border md:w-[791px] md:h-[1169px] text-white">
+    <h2 class="md:text-[36px] text-[24px] text-center my-[64px]">メニュー</h2>
     <div class="menu-text-box">
       <p>お試しコース</p>
-      <p>30分・・・・・・・・・・・・・・・3,000円</p>
+      <p>
+        30分<span class="hidden md:inline">・・・・・・・・・・・</span
+        >・・・・3,000円
+      </p>
     </div>
     <div class="line"></div>
-    <div class="menu-text-box">
+    <div class="menu-text-box px-4 md:px-0">
       <p>オイルコース</p>
-      <p>60分・・・・・・・・・・・・・・・8,000円</p>
-      <p>90分・・・・・・・・・・・・・・・11,000円</p>
-      <p>120分・・・・・・・・・・・・・・14,000円</p>
+      <p>
+        60分<span class="hidden md:inline">・・・・・・・・・・・</span
+        >・・・・8,000円
+      </p>
+      <p>
+        90分<span class="hidden md:inline">・・・・・・・・・・・</span
+        >・・・・11,000円
+      </p>
+      <p>
+        120分<span class="hidden md:inline">・・・・・・・・・・・</span
+        >・・・14,000円
+      </p>
     </div>
     <div class="line"></div>
     <div class="menu-text-box">
       <p>泡泡洗体コース</p>
-      <p>70分・・・・・・・・・・・・・・・11,000円</p>
-      <p>100分・・・・・・・・・・・・・・14,000円</p>
-      <p>130分・・・・・・・・・・・・・・17,000円</p>
+      <p>
+        70分<span class="hidden md:inline">・・・・・・・・・・・</span
+        >・・・・11,000円
+      </p>
+      <p>
+        100分<span class="hidden md:inline">・・・・・・・・・・・</span
+        >・・・14,000円
+      </p>
+      <p>
+        130分<span class="hidden md:inline">・・・・・・・・・・・</span
+        >・・・17,000円
+      </p>
     </div>
   </div>
 </template>
