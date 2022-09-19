@@ -35,25 +35,35 @@
         </p>
       </div>
       <div class="h-[1px] w-full bg-[#d6d6d6] my-[47px]"></div>
-      <div class="h-[298px] w-[1042px] mx-auto">
-        <p class="text-[#ffd100] text-[42px]">お客様応援キャンペーン</p>
-        <div class="text-[24px] text-[#d6d6d6] w-max mx-auto">
+      <div class="h-[298px] w-full md:w-[1042px] mx-auto">
+        <p class="text-[#ffd100] md:text-[42px] text-[26px]">
+          お客様応援キャンペーン
+        </p>
+        <div class="text-[24px] text-[#d6d6d6] md:w-max mx-auto">
           <p>
-            100分泡コース・・・・・・通常<span class="line-through"
+            100分泡コース・・・・・・通常<br class="md:hidden block" /><span
+              class="line-through"
               >14,000円</span
-            ><span class="text-[42px] text-[#ffd100] inline-block mx-[20px]"
+            ><span
+              class="text-[28px] md:text-[42px] text-[#ffd100] inline-block mx-[20px]"
               >→</span
-            ><span class="text-[42px] text-red-600">割引価格12,000円</span>
+            ><span class="text-[28px] md:text-[42px] text-red-600"
+              >割引価格12,000円</span
+            >
           </p>
           <p>
-            130分泡コース・・・・・・通常<span class="line-through"
+            130分泡コース・・・・・・通常<br class="md:hidden block" /><span
+              class="line-through"
               >17,000円</span
-            ><span class="text-[42px] text-[#ffd100] inline-block mx-[20px]"
+            ><span
+              class="text-[28px] md:text-[42px] text-[#ffd100] inline-block mx-[20px]"
               >→</span
-            ><span class="text-[42px] text-red-600">割引価格15,000円</span>
+            ><span class="text-[28px] md:text-[42px] text-red-600"
+              >割引価格15,000円</span
+            >
           </p>
         </div>
-        <p class="text-center text-[#ffd100] text-[24px]">
+        <p class="text-center w-full text-[#ffd100] md:text-[24px] text-[18px]">
           18:00までにご来店のお客様
         </p>
       </div>
