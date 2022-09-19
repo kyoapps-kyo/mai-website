@@ -1,20 +1,34 @@
 <template>
-  <div class="card w-[791px] h-[474px] box-border mx-auto my-24 relative">
+  <div
+    class="card md:w-[791px] md:h-[474px] box-border mx-4 md:mx-auto my-24 relative p-4 md:p-0 overflow-hidden"
+  >
     <div
-      class="staff-img w-[256px] h-[336px] bg-gray-100 mt-[47px] ml-[49px] mr-[20px] float-left"
+      class="staff-img md:w-[256px] md:h-[336px] w-[200px] h-[280px] bg-gray-100 md:mt-[47px] mt-[20px] md:ml-[49px] md:mr-[20px] mx-auto md:mx-0 md:float-left"
     ></div>
     <div
-      class="text-box mt-[47px] py-2 pr-20 text-[16px] text-[#d6d6d6] float-right w-[400px] z-10"
+      class="text-box mt-[47px] py-2 md:pr-20 text-[16px] text-[#d6d6d6] md:float-right md:w-[400px] z-10"
     >
-      <p class="flex justify-between"><span>名前:</span><span>年齢</span></p>
-      <p class="w-full text-right text-green-500">状態</p>
+      <p class="flex justify-between">
+        <span>名前: {{ name }}</span
+        ><span>年齢: {{ age }}</span>
+      </p>
+      <p class="w-full text-right text-green-500">状態: {{ status }}</p>
       <p class="mt-[42px]">お店から一言：</p>
       <p class="mt-[10px]">
-        お店から一言お店から一言お店から一言お店から一言お店から一言お店から一言お店から一言お店から一言お店から一言お店から一言お店から一言お店から一言お店から一言お店から一言お店から一言お店から一言お店から一言お店から一言お店から一言お店から一言お店から一言お店から一言お店から一言お店から一言
+        {{ content }}
       </p>
     </div>
   </div>
 </template>
+
+<script lang="ts" setup>
+const props = defineProps({
+  name: String,
+  age: String,
+  status: String,
+  content: String,
+})
+</script>
 
 <style scope>
 .card {
