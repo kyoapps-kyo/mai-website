@@ -1,9 +1,9 @@
 <template>
   <LeftRightMainContent>
     <template slot="mainContent">
-      <div class="w-[791px] pl-20 box-border">
+      <div class="md:w-[791px] w-full pl-[4px] md:pl-20 box-border">
         <p class="text-center text-[32px] text-[#ffd100]">求人情報</p>
-        <p class="text-[24px] text-[#ffd100] mt-[32px]">
+        <p class="text-[18px] md:text-[24px] text-[#ffd100] mt-[32px]">
           只今、「舞」では女性エスティシャンを急募しております。<br />
           -高収入・高待遇・店内環境良好-
         </p>
@@ -49,8 +49,16 @@ export default Vue.extend({
 <style scope>
 .jobs-info {
   margin: 24px 0;
-  font-size: 24px;
+  font-size: 18px;
   color: #d6d6d6;
-  line-height: 50px;
+  line-height: 40px;
+}
+@media (min-width: 768px) {
+  .jobs-info {
+    margin: 24px 0;
+    font-size: 24px;
+    color: #d6d6d6;
+    line-height: 50px;
+  }
 }
 </style>
