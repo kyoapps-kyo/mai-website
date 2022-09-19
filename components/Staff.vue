@@ -2,8 +2,36 @@
   <div class="bg-[#000] md:min-w-[1200px] w-full">
     <div class="lg:w-[1200px] lg:mx-auto py-[72px]">
       <SectionTitle>スタッフ情報</SectionTitle>
-      <StaffCard name=" A子" age="28" status="出勤中" />
-      <StaffCard name=" A子" age="28" status="出勤中" />
+      <StaffCard
+        name=" ゆゆ"
+        age="28"
+        status="-"
+        content="見事なボディースタイルに色艶のある美人セラピストです。経験も長くマッサージはすごく上手です。とくにお客様一人一人に合わせた強弱のバランスが抜群ですよ。指名のお客様も多く疲れてる方、癒やしの欲しい方、どちらのお客様にもオススメです！"
+      >
+        <template slot="staffImage">
+          <img src="~/assets/images/staff1.jpg" alt="" />
+        </template>
+      </StaffCard>
+      <StaffCard
+        name=" リリ"
+        age="26"
+        status="-"
+        content="穏やかな性格に明るく社交的な品のある整った美形セラピストです！ニッコリと笑った笑顔がとってもキュートです! 時に可愛く…時に大人っぽく…若さの中に大人の色気を感じるセラピストさん！"
+      >
+        <template slot="staffImage">
+          <img src="~/assets/images/staff2.jpg" alt="" />
+        </template>
+      </StaffCard>
+      <StaffCard
+        name=" ななみ"
+        age="27"
+        status="-"
+        content="とてもいい意味で容姿も距離感も身近に感じられる「彼女にしたい系」の可愛らしいセラピストさん。気遣い上手で接客もとっても好評です！ 素直で明るい彼女となら、優しい癒しのお時間を過ごせることでしょう♪"
+      >
+        <template slot="staffImage">
+          <img src="~/assets/images/staff3.jpg" alt="" />
+        </template>
+      </StaffCard>
       <div
         class="staff-info md:w-[900px] w-full h-[303px] border-4 border-[#ffd100] mx-auto mt-[120px] relative"
       >

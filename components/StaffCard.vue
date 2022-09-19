@@ -3,8 +3,10 @@
     class="card md:w-[791px] md:h-[474px] box-border mx-4 md:mx-auto my-24 relative p-4 md:p-0 overflow-hidden"
   >
     <div
-      class="staff-img md:w-[256px] md:h-[336px] w-[200px] h-[280px] bg-gray-100 md:mt-[47px] mt-[20px] md:ml-[49px] md:mr-[20px] mx-auto md:mx-0 md:float-left"
-    ></div>
+      class="staff-img md:w-[256px] md:h-[336px] w-[200px] h-[260px] bg-gray-100 md:mt-[47px] mt-[20px] md:ml-[49px] md:mr-[20px] mx-auto md:mx-0 md:float-left"
+    >
+      <slot name="staffImage"></slot>
+    </div>
     <div
       class="text-box mt-[47px] py-2 md:pr-20 text-[16px] text-[#d6d6d6] md:float-right md:w-[400px] z-10"
     >
