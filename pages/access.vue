@@ -1,6 +1,9 @@
 <template>
   <LeftRightMainContent>
     <Map slot="mainContent" />
+    <template slot="mainMap">
+      <div class="hidden"></div>
+    </template>
   </LeftRightMainContent>
 </template>
 <script lang="ts">
