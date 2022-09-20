@@ -1,6 +1,6 @@
 <template>
   <LeftRightMainContent>
-    <Map :width="791" :height="791" slot="mainContent" />
+    <Map slot="mainContent" />
   </LeftRightMainContent>
 </template>
 <script lang="ts">
