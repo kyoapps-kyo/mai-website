@@ -1,17 +1,19 @@
 <template>
   <div>
     <div class="banner md:h-[720px] md:min-w-[1200px]">
-      <div class="h-[720px] w-full lg:w-[1200px] md:mx-auto relative">
+      <div
+        class="h-[580px] md:h-[720px] w-full lg:w-[1200px] md:mx-auto relative"
+      >
         <div
-          class="absolute top-1/2 md:mt-[-174px] mt-[-220px] h-[440px] md:h-[348px] md:w-[984px] w-full md:left-1/2 md:ml-[-492px] bg-opacity-[0.5] bg-black"
+          class="absolute top-1/2 md:mt-[-174px] mt-[-220px] h-[440px] md:h-[348px] md:w-[984px] w-full md:left-1/2 md:ml-[-492px] md:bg-opacity-[0.5] md:bg-black"
         >
           <img
-            class="absolute md:right-[86px] md:w-[200px] md:h-[301px] w-[100px] h-[150px] md:top-1/2 md:mt-[-150px] top-[20px] right-1/2 mr-[-50px]"
+            class="absolute md:right-[86px] md:w-[200px] md:h-[301px] w-[100px] h-[150px] md:top-1/2 md:mt-[-150px] top-[20px] right-1/2 mr-[-50px] hidden md:block"
             src="~/assets/images/word.png"
             alt=""
           />
           <div
-            class="md:h-[260px] md:w-[594px] flex flex-col justify-end items-center md:items-stretch md:justify-between md:mt-[34px] md:ml-[78px] w-full h-full pb-10 md:pb-0"
+            class="md:h-[260px] md:w-[594px] flex flex-col justify-center items-center md:items-stretch md:justify-between md:mt-[34px] md:ml-[78px] w-full h-full pb-10 md:pb-0"
           >
             <p
               class="goldtext md:w-[432px] md:h-[70px] leading-[70px] text-[28px] md:text-[48px]"
