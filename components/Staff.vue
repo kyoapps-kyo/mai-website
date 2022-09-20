@@ -57,7 +57,7 @@
         </div>
       </div>
       <div class="mt-[56px] text-center px-4 md:px-0">
-        <p class="text-[#ffd100] md:text-[18px] text-[16px]">
+        <p class="text-[#ffd100] md:text-[18px] text-[16px] hidden">
           ○当店はクレジットカード払、PayPay使用可です。
         </p>
         <p class="text-[#d6d6d6] md:text-[18px] text-[16px] mt-8">
@@ -72,8 +72,9 @@
           セラピストたちは毎日検温<br />
           手洗い（消毒）とうがいの徹底<br />
           ドアノブなどの徹底消毒<br />
-          高性能空気清浄機の設置<br />
+          <span class="hidden">高性能空気清浄機の設置<br /></span>
           施術間の換気とアルコール消毒<br />
+          マスクを着用して施術<br />
         </p>
       </div>
     </div>
