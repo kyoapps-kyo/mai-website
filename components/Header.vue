@@ -9,7 +9,7 @@
       <div
         class="md:flex md:flex-col md:items-end md:justify-between md:pb-[20px]"
       >
-        <Tel class="md:mt-[33px] mx-auto md:mx-0" />
+        <Tel class="md:mt-[33px] mt-2 mx-auto md:mx-0" />
         <Menu />
       </div>
     </div>
@@ -18,7 +18,7 @@
 
 <style scope>
 h1 {
-  background: url('~/assets/images/logo.png') no-repeat center center / contain;
+  background: url('~/assets/images/logo1.png') no-repeat center center / contain;
   color: rgba(0, 0, 0, 0);
 }
 </style>
