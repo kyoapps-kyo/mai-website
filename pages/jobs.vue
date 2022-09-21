@@ -1,7 +1,7 @@
 <template>
   <LeftRightMainContent>
     <template slot="mainContent">
-      <div class="md:w-[791px] w-full pl-[4px] md:pl-20 box-border">
+      <div class="md:w-[791px] w-full px-[20px] md:pl-20 box-border">
         <p class="text-center text-[32px] text-[#ffd100]">求人情報</p>
         <p class="text-[18px] md:text-[24px] text-[#ffd100] mt-[32px]">
           只今、「舞」では女性エスティシャンを急募しております。<br />
@@ -9,8 +9,8 @@
         </p>
         <p class="jobs-info">
           資格：<br />
-          20歳〜30歳位　※未経験者可<br />
-          経験者100、住込み希望者、初心者も大歓迎！
+          20歳〜30歳位 ※未経験者可<br />
+          経験者、住込み希望者、初心者も大歓迎！
         </p>
         <p class="jobs-info">
           給与：<br />
