@@ -9,7 +9,7 @@
         </p>
         <p class="jobs-info">
           資格：<br />
-          20歳〜30歳位 ※未経験者可<br />
+          20歳〜38歳位&nbsp;&nbsp;&nbsp;※未経験者可<br />
           経験者、住込み希望者、初心者も大歓迎！
         </p>
         <p class="jobs-info">
