@@ -56,14 +56,6 @@
           お客様を騙す行為一切なし！<br />
         </div>
       </div>
-      <div class="mt-[56px] text-center px-4 md:px-0">
-        <p class="text-[#ffd100] md:text-[18px] text-[16px] hidden">
-          ○当店はクレジットカード払、PayPay使用可です。
-        </p>
-        <p class="text-[#d6d6d6] md:text-[18px] text-[16px] mt-8">
-          ※当店は、風俗店ではありません。お客様に対して癒しと休息を提供するお店です。
-        </p>
-      </div>
       <div
         class="taisai-box h-[332px] md:w-[900px] w-full box-border mx-auto mt-[56px] text-center text-[24px] text-white pt-[41px]"
       >
@@ -77,6 +69,7 @@
           マスクを着用して施術<br />
         </p>
       </div>
+      <Slogan />
     </div>
   </div>
 </template>
