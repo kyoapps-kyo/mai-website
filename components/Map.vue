@@ -42,12 +42,14 @@ const height = ref()
 onBeforeMount(() => {
   let windowWidth = window.innerWidth
   console.log(windowWidth)
-  if (windowWidth < 1200) {
-    width.value = 320
-    height.value = 320
-  } else {
-    width.value = 700
-    height.value = 700
-  }
+  console.log('typeof is ' + typeof width.value)
+  if (width.value == undefined)
+    if (windowWidth < 1200) {
+      width.value = 320
+      height.value = 320
+    } else {
+      width.value = 700
+      height.value = 700
+    }
 })
 </script>
