@@ -2,7 +2,7 @@
   <div>
     <div class="banner md:h-[720px] md:min-w-[1200px]">
       <div
-        class="h-[580px] md:h-[720px] w-full lg:w-[1200px] md:mx-auto relative"
+        class="h-[300px] md:h-[720px] w-full lg:w-[1200px] md:mx-auto relative"
       >
         <div
           class="absolute top-1/2 md:mt-[-174px] mt-[-220px] h-[440px] md:h-[348px] md:w-[984px] w-full md:left-1/2 md:ml-[-492px] md:bg-opacity-[0.5] md:bg-black"
@@ -13,23 +13,23 @@
             alt=""
           />
           <div
-            class="md:h-[260px] md:w-[594px] flex flex-col justify-center items-center md:items-stretch md:justify-between md:mt-[34px] md:ml-[78px] w-full h-full pb-10 md:pb-0"
+            class="md:h-[260px] md:w-[594px] flex flex-col justify-center items-center md:items-stretch md:justify-between md:mt-[34px] md:ml-[78px] w-full h-full"
           >
             <p
-              class="goldtext md:w-[432px] md:h-[70px] leading-[70px] text-[28px] md:text-[48px]"
+              class="goldtext md:w-[432px] md:h-[70px] leading-[70px] text-[36px] md:text-[48px]"
             >
               烏丸御池で新開店！
             </p>
             <p
-              class="goldtext md:w-[480px] md:h-[70px] leading-[70px] text-[28px] md:text-[48px] md:ml-[70px]"
+              class="goldtext md:w-[480px] md:h-[70px] leading-[70px] text-[36px] md:text-[48px] md:ml-[70px]"
             >
               高級リラクゼーション
             </p>
             <p
-              class="goldtext md:w-[480px] md:h-[70px] leading-[70px] text-[28px] md:ml-[70px]"
+              class="goldtext md:w-[480px] md:h-[70px] leading-[70px] md:text-[28px] text-[32px] md:ml-[70px]"
             >
               <span class="hidden md:inline">予約電話</span
-              ><span class="bulintext md:ml-[30px] md:text-[42px] text-[34px]"
+              ><span class="bulintext md:ml-[30px] md:text-[42px] text-[36px]"
                 >090-9846-8392</span
               >
             </p>
