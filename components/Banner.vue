@@ -13,7 +13,7 @@
             alt=""
           />
           <div
-            class="md:h-[260px] md:w-[594px] flex flex-col justify-center items-center md:items-stretch md:justify-between md:mt-[34px] md:ml-[78px] w-full h-full"
+            class="md:h-[260px] md:w-[594px] flex flex-col justify-center items-center md:items-stretch md:justify-between md:mt-[34px] md:ml-[78px] w-full h-full font-bold"
           >
             <p
               class="goldtext md:w-[432px] md:h-[70px] leading-[70px] text-[36px] md:text-[48px]"
@@ -26,7 +26,7 @@
               高級リラクゼーション
             </p>
             <p
-              class="goldtext md:w-[480px] md:h-[70px] leading-[70px] md:text-[28px] text-[32px] md:ml-[70px]"
+              class="goldtext md:w-[480px] md:h-[70px] leading-[70px] md:text-[26px] text-[32px] md:ml-[70px]"
             >
               <span class="hidden md:inline">予約電話</span
               ><span class="bulintext md:ml-[30px] md:text-[42px] text-[36px]"
