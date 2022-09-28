@@ -30,7 +30,7 @@
             >
               <span class="hidden md:inline">予約電話</span
               ><span class="bulintext md:ml-[30px] md:text-[42px] text-[36px]"
-                >090-9846-8392</span
+                >090-6677-1888</span
               >
             </p>
           </div>
