@@ -42,7 +42,12 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/sitemap', '@nuxtjs/robots'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/robots',
+    '@nuxtjs/google-gtag',
+  ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
@@ -55,5 +60,8 @@ export default {
   robots: {
     UserAgent: '*',
     Allow: '*',
+  },
+  'google-gtag': {
+    id: 'G-FHPP2LEQXN',
   },
 }
