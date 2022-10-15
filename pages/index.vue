@@ -7,12 +7,18 @@
   </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
-import Banner from '~/components/Banner.vue'
-
-export default Vue.extend({
-  name: 'IndexPage',
-  components: { Banner },
-})
+<script>
+export default {
+  head() {
+    return {
+      meta: [
+        {
+          hid: 'google-site-verification',
+          name: 'google-site-verification',
+          content: 'liCF9miK55JO2M2r8HUu10Scm-oTsE-u0aL39cXufMk',
+        },
+      ],
+    }
+  },
+}
 </script>
