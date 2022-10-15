@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: '舞 | 京都烏丸御池 | 高級リラクゼーション',
+    title: '高級リラクゼーション - 舞',
     htmlAttrs: {
       lang: 'ja',
     },
@@ -21,7 +21,7 @@ export default {
         name: 'keyword',
         content: '京都,烏丸御池,高級リラクゼーションサロン,マッサージ',
       },
-      { name: 'format-detection', content: 'telephone=09098468392' },
+      { name: 'format-detection', content: 'telephone=09066771888' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
@@ -42,8 +42,18 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/sitemap', '@nuxtjs/robots'],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  //SEO
+  sitemap: {
+    hostname: 'https://mai-web.netlify.app/',
+    gzip: true,
+  },
+  robots: {
+    UserAgent: '*',
+    Allow: '*',
+  },
 }
