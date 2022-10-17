@@ -30,7 +30,7 @@
         </p>
         <p class="text-[24px] text-[#ffd100] mt-[32px]">
           問合せ電話：<br />
-          090-9846-8392
+          090-6677-1888
         </p>
       </div>
     </template>
