@@ -22,16 +22,6 @@
           <img src="~/assets/images/staff2.jpg" alt="" />
         </template>
       </StaffCard>
-      <StaffCard
-        name=" ななみ"
-        age="27"
-        status="-"
-        content="とてもいい意味で容姿も距離感も身近に感じられる「彼女にしたい系」の可愛らしいセラピストさん。気遣い上手で接客もとっても好評です！ 素直で明るい彼女となら、優しい癒しのお時間を過ごせることでしょう♪"
-      >
-        <template slot="staffImage">
-          <img src="~/assets/images/staff3.jpg" alt="" />
-        </template>
-      </StaffCard>
       <div
         class="staff-info md:w-[900px] w-full h-[303px] border-4 border-[#ffd100] mx-auto mt-[120px] relative"
       >

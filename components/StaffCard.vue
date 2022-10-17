@@ -14,7 +14,7 @@
         <span>名前: {{ name }}</span
         ><span>年齢: {{ age }}</span>
       </p>
-      <p class="w-full text-right text-green-500">状態: {{ status }}</p>
+      <p class="w-full text-right text-green-500 hidden">状態: {{ status }}</p>
       <p class="mt-[42px]">お店から一言：</p>
       <p class="mt-[10px]">
         {{ content }}
