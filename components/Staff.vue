@@ -22,6 +22,36 @@
           <img src="~/assets/images/staff2.jpg" alt="" />
         </template>
       </StaffCard>
+      <StaffCard
+        name=" もも"
+        age="29"
+        status="-"
+        content="リラックスして、楽しい時間を過ごしたいという方に是非おすすめのセラピストです。綺麗なルックスにバランスの取れたスタイル。とても明るい性格と熟練の施術、落ち着いた雰囲気から生まれる癒しの時間を体感ください。"
+      >
+        <template slot="staffImage">
+          <img src="~/assets/images/staff3.jpg" alt="" />
+        </template>
+      </StaffCard>
+      <StaffCard
+        name="ココ"
+        age="24"
+        status="-"
+        content="とてもいい意味で容姿も距離感も身近に感じられる「彼女にしたい系」の可愛らしいセラピストさん。気遣い上手で接客もとっても好評です！ 素直で明るい彼女となら、優しい癒しのお時間を過ごせることでしょう♪"
+      >
+        <template slot="staffImage">
+          <img src="~/assets/images/staff4.jpg" alt="" />
+        </template>
+      </StaffCard>
+      <StaffCard
+        name=" ゆみ"
+        age="28"
+        status="-"
+        content="心まで癒されるような、ほんわりとした雰囲気での施術をお求めなら彼女が的確ではないでしょうか。そんな癒しの部分が目立つ彼女ですが、目を見張るほどのスタイルの持ち主でもあります。"
+      >
+        <template slot="staffImage">
+          <img src="~/assets/images/staff5.jpg" alt="" />
+        </template>
+      </StaffCard>
       <div
         class="staff-info md:w-[900px] w-full h-[303px] border-4 border-[#ffd100] mx-auto mt-[120px] relative"
       >
