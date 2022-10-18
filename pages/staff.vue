@@ -18,16 +18,6 @@
           </template>
         </StaffCard>
         <StaffCard
-          name=" リリ"
-          age="26"
-          status="-"
-          content="穏やかな性格に明るく社交的な品のある整った美形セラピストです！ニッコリと笑った笑顔がとってもキュートです! 時に可愛く…時に大人っぽく…若さの中に大人の色気を感じるセラピストさん！"
-        >
-          <template slot="staffImage">
-            <img src="~/assets/images/staff2.jpg" alt="" />
-          </template>
-        </StaffCard>
-        <StaffCard
           name=" もも"
           age="29"
           status="-"
@@ -35,16 +25,6 @@
         >
           <template slot="staffImage">
             <img src="~/assets/images/staff3.jpg" alt="" />
-          </template>
-        </StaffCard>
-        <StaffCard
-          name="ココ"
-          age="24"
-          status="-"
-          content="とてもいい意味で容姿も距離感も身近に感じられる「彼女にしたい系」の可愛らしいセラピストさん。気遣い上手で接客もとっても好評です！ 素直で明るい彼女となら、優しい癒しのお時間を過ごせることでしょう♪"
-        >
-          <template slot="staffImage">
-            <img src="~/assets/images/staff4.jpg" alt="" />
           </template>
         </StaffCard>
         <StaffCard
