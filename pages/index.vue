@@ -1,6 +1,7 @@
 <template>
   <div>
     <Banner />
+    <UpdateInfo />
     <Campon />
     <Staff />
     <Access />
