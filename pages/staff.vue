@@ -8,6 +8,16 @@
     <template slot="mainContent">
       <div>
         <StaffCard
+          name=" レナ"
+          age="26"
+          status="-"
+          content="心まで癒されるような、ほんわりとした雰囲気での施術をお求めなら彼女が的確ではないでしょうか。そんな癒しの部分が目立つ彼女ですが、目を見張るほどのスタイルの持ち主でもあります。明るい性格なので必ず楽しいお時間が過ごせる事でしょう。"
+        >
+          <template slot="staffImage">
+            <img src="~/assets/images/staff6.jpg" alt="" />
+          </template>
+        </StaffCard>
+        <StaffCard
           name=" ゆゆ"
           age="28"
           status="-"
