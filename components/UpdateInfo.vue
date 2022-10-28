@@ -6,6 +6,18 @@
         class="mx-auto w-min h-[300px] overflow-scroll px-4 md:px-6 flex flex-col gap-y-4 md:gap-y-8"
       >
         <InfoBox>
+          <template slot="date">2022 - 10 - 28</template>
+          <template slot="title"
+            >★優しいセラピストによる癒しを提供しております★</template
+          >
+          <template slot="active"
+            >当店はお客様にくつろげる空間と優しいセラピストによる癒しを提供しております。</template
+          >
+          <template slot="content"
+            >お客様の気分に合わせたコースが選べるように多彩なコースをご用意致しております。毎日お忙しいビジネスマンの方へこの機会にゆっくりマッサージを受けてみませんか？施術には自信を持っていますのでぜひお越しください。</template
+          >
+        </InfoBox>
+        <InfoBox>
           <template slot="date">2022 - 10 - 24</template>
           <template slot="title">新人レナちゃん入りました！</template>
           <template slot="active"
