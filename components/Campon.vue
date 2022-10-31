@@ -10,7 +10,7 @@
           src="~/assets/images/10month.png"
           alt=""
         />
-        <p class="text-red-600 text-[42px]">新開店キャンペーン</p>
+        <p class="text-red-600 text-[42px]">来店キャンペーン</p>
         <p class="text-[#d6d6d6] text-[24px]">70分泡コース(泡洗体コース限定)</p>
         <p class="text-[#ffd100] text-[42px]">
           <span class="text-red-600 text-[32px] line-through">11,000円</span>
@@ -19,17 +19,6 @@
         <p class="text-[24px] text-[#ffd100]">
           12:00~18:00までにご来店の方限定！
         </p>
-        <p class="text-[28px] text-[#fff]">
-          今回、10月にご新規来店のお客様に、心を込めたスペシャルな<span
-            class="text-red-600"
-            >プレゼント</span
-          >を、ご用意しました。
-        </p>
-        <img
-          class="mx-auto md:mx-0 md:absolute md:top-[320px] md:right-[-100px] w-[100px] h-[100px]"
-          src="~/assets/images/gift.png"
-          alt=""
-        />
         <p class="text-[24px] text-[#fff]">
           他割引サービスとの併用は不可です。
         </p>
