@@ -6,6 +6,16 @@
         class="mx-auto w-min h-[300px] overflow-scroll px-4 md:px-6 flex flex-col gap-y-4 md:gap-y-8"
       >
         <InfoBox>
+          <template slot="date">2022 - 11 - 05</template>
+          <template slot="title">★ 新人ミキちゃん入りました！★</template>
+          <template slot="active"
+            >清楚な容姿とおしとやかな雰囲気をもったセラピストです。</template
+          >
+          <template slot="content">
+            彼女の明るい性格は会話も弾むこと間違いなしっ！エステ経験者ならではのまじめな技術に身体をほぐれることでしょう♪ご予約お待ち致しております。</template
+          >
+        </InfoBox>
+        <InfoBox>
           <template slot="date">2022 - 10 - 28</template>
           <template slot="title"
             >★優しいセラピストによる癒しを提供しております★</template

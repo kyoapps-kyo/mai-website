@@ -8,6 +8,16 @@
     <template slot="mainContent">
       <div>
         <StaffCard
+          name="ミキ"
+          age="28"
+          status="-"
+          content="清楚な容姿とおしとやかな雰囲気をもったセラピストです。彼女の明るい性格は会話も弾むこと間違いなしっ！エステ経験者ならではのまじめな技術に身体をほぐれることでしょう♪ご予約お待ち致しております。"
+        >
+          <template slot="staffImage">
+            <img src="~/assets/images/staff7.jpg" alt="" />
+          </template>
+        </StaffCard>
+        <StaffCard
           name=" レナ"
           age="26"
           status="-"
