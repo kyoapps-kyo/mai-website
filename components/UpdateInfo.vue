@@ -6,6 +6,17 @@
         class="mx-auto w-min h-[300px] overflow-scroll px-4 md:px-6 flex flex-col gap-y-4 md:gap-y-8"
       >
         <InfoBox>
+          <template slot="date">2022 - 11 - 08</template>
+          <template slot="title">★ 新人秋ちゃん入りました！★</template>
+          <template slot="active"
+            >メンズエステ経験がありセンス抜群、可愛いらしく、愛くるしい女の子です。</template
+          >
+          <template slot="content">
+            満足度Maxレベル。何気ない仕草が醸し出す自然体で安心感のある雰囲気にいつの間にか引き込まれてしまっている、癒しのひとときをご堪能ください♪
+            ご予約お待ち致しております。</template
+          >
+        </InfoBox>
+        <InfoBox>
           <template slot="date">2022 - 11 - 05</template>
           <template slot="title">★ 新人ミキちゃん入りました！★</template>
           <template slot="active"

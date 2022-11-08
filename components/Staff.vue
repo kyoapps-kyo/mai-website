@@ -3,6 +3,16 @@
     <div class="lg:w-[1200px] lg:mx-auto py-[72px]">
       <SectionTitle>スタッフ情報</SectionTitle>
       <StaffCard
+        name="秋"
+        age="25"
+        status="-"
+        content="メンズエステ経験がありセンス抜群、可愛いらしく、愛くるしい女の子です。満足度Maxレベル。何気ない仕草が醸し出す自然体で安心感のある雰囲気にいつの間にか引き込まれてしまっている、癒しのひとときをご堪能ください。"
+      >
+        <template slot="staffImage">
+          <img src="~/assets/images/staff8.jpg" alt="" />
+        </template>
+      </StaffCard>
+      <StaffCard
         name="ミキ"
         age="28"
         status="-"
@@ -40,16 +50,6 @@
       >
         <template slot="staffImage">
           <img src="~/assets/images/staff3.jpg" alt="" />
-        </template>
-      </StaffCard>
-      <StaffCard
-        name=" ゆみ"
-        age="28"
-        status="-"
-        content="心まで癒されるような、ほんわりとした雰囲気での施術をお求めなら彼女が的確ではないでしょうか。そんな癒しの部分が目立つ彼女ですが、目を見張るほどのスタイルの持ち主でもあります。"
-      >
-        <template slot="staffImage">
-          <img src="~/assets/images/staff5.jpg" alt="" />
         </template>
       </StaffCard>
       <div
