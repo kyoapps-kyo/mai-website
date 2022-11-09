@@ -7,7 +7,7 @@
       >
         <InfoBox>
           <template slot="date">2022 - 11 - 08</template>
-          <template slot="title">★ 新人秋ちゃん入りました！★</template>
+          <template slot="title">★ 新人アキちゃん入りました！★</template>
           <template slot="active"
             >メンズエステ経験がありセンス抜群、可愛いらしく、愛くるしい女の子です。</template
           >
